@@ -398,6 +398,7 @@ CGPathRef UIBezierPathCreateCGPathRef(UIBezierPath *path);
 @property BOOL clipsToBounds;
 @property (nonatomic, copy) NSColor *backgroundColor;
 @property (nonatomic) CGAffineTransform transform;
+@property (nonatomic) CGPoint center;
 
 /**
  * Specifies whether the view should receive the mouse down event when the
